@@ -3,7 +3,7 @@
 import Stripe from "stripe"
 
 const stripe = new Stripe(
-  "sk_test_51OKqgrDBCtd2xcDTYxuYx2TITk5ppR8U7Wau1HaVna4q83MjnMzp7LGLO8lh2o6z9SP3blHLGy0YJbuvpbfxzFgl00Qni5685k"
+  "Aqui va la secret key"
 )
 export const createSession = async (req, res) => {
   try {
